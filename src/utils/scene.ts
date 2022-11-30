@@ -13,7 +13,11 @@ import { chaos } from './chaos';
 import { equationGen } from './equationGen';
 import { str2params } from './str2params';
 
-export const scene = (stringParams: string, t0: number, dt: number) => {
+export const scene = (
+  stringParams: string,
+  tRange: [number, number],
+  dt: number
+) => {
   const scene = new Scene('chaotic-particles-scene');
 
   const params = str2params(stringParams);
@@ -38,7 +42,7 @@ export const scene = (stringParams: string, t0: number, dt: number) => {
         },
       }).render();
 
-      position = chaos(params)(position, t0);
+      position = chaos(params)(position, tRange[0]);
 
       return particle;
     });
@@ -46,16 +50,13 @@ export const scene = (stringParams: string, t0: number, dt: number) => {
     const flowAnimations = particles.map((particle) => {
       return new Flow({
         cubicon: particle,
-        duration: 25000,
         functionDef: chaos(params),
-        tRange: [t0, 2],
+        tRange,
         dt,
       });
     });
 
     group.play(flowAnimations);
-
-    group.remove(particles);
   })();
 
   (() => {
@@ -76,15 +77,6 @@ export const scene = (stringParams: string, t0: number, dt: number) => {
       group,
       position: new Vector2(xPos, 6.5),
       text: equationGen(params.slice(6), 'y'),
-      CONFIG: {
-        color: '#fff',
-      },
-    }).render();
-
-    new MathTex({
-      group,
-      position: new Vector2(xPos, 5.5),
-      text: `Code: \\ ${stringParams}`,
       CONFIG: {
         color: '#fff',
       },

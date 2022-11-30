@@ -9,13 +9,15 @@ import { scene } from './utils/scene';
 function App() {
   const [stringParams, setStringParams] = useState('MDVAIDOYHYEA');
   const [t0, set_t0] = useState(0.85);
+  const [t1, set_t1] = useState(2);
   const [dt, set_dt] = useState(0.0005);
 
   useEffect(() => {
     const gui = new dat.GUI();
 
     const gui_code = gui.add({ stringParams }, 'stringParams').name('code');
-    const gui_t0 = gui.add({ t0 }, 't0').name('t0');
+    const gui_t0 = gui.add({ t0 }, 't0').name('t_start');
+    const gui_t1 = gui.add({ t1 }, 't1').name('t_end');
     const gui_dt = gui.add({ dt }, 'dt').name('dt');
 
     gui_code.onChange((value) => {
@@ -26,6 +28,10 @@ function App() {
       set_t0(value);
     });
 
+    gui_t1.onChange((value) => {
+      set_t1(value);
+    });
+
     gui_dt.onChange((value) => {
       set_dt(value);
     });
@@ -33,7 +39,7 @@ function App() {
 
   useEffect(() => {
     document.getElementById('cubecubed')!.innerHTML = '';
-    scene(stringParams, t0, dt);
+    scene(stringParams, [t0, t1], dt);
   }, [stringParams, t0, dt]);
 
   return (
