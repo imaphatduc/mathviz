@@ -8,9 +8,9 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
-  "homepage": "http://imaphatduc.github.io/chaos-simulator",
+  "homepage": "https://imaphatduc.github.io/chaos-simulator/",
   "dependencies": {
     "@types/dat.gui": "^0.7.7",
     "cubecubed": "^1.14.0",
