@@ -63,7 +63,7 @@ export const scene = (
   (() => {
     const group = new Group('chaos-equation', scene);
 
-    const xPos = -16;
+    const xPos = -15;
 
     new MathTex({
       group,

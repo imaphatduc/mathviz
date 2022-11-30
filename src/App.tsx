@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
-import * as dat from 'dat.gui';
+import GithubCorner from 'react-github-corner';
+import dat from 'dat.gui';
 import { scene } from './utils/scene';
 
 // const stringParams = "FIRCDERRPVLD"; // cool
@@ -63,6 +64,14 @@ function App() {
           left: 0,
         }}
       ></div>
+      <GithubCorner
+        href="https://github.com/imaphatduc/chaos-simulator"
+        bannerColor="#3344da"
+        direction="left"
+        svgStyle={{
+          zIndex: 100,
+        }}
+      />
     </>
   );
 }
