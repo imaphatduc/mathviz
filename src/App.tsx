@@ -8,6 +8,7 @@ import { scene } from './utils/scene';
 
 function App() {
   const [stringParams, setStringParams] = useState('MDVAIDOYHYEA');
+  const [numParticles, setNumParticles] = useState(5000);
   const [t0, set_t0] = useState(0.85);
   const [t1, set_t1] = useState(2);
   const [dt, set_dt] = useState(0.0005);
@@ -16,12 +17,19 @@ function App() {
     const gui = new dat.GUI();
 
     const gui_code = gui.add({ stringParams }, 'stringParams').name('code');
+    const gui_numParticles = gui
+      .add({ numParticles }, 'numParticles')
+      .name('num_particles');
     const gui_t0 = gui.add({ t0 }, 't0').name('t_start');
     const gui_t1 = gui.add({ t1 }, 't1').name('t_end');
     const gui_dt = gui.add({ dt }, 'dt').name('dt');
 
     gui_code.onChange((value) => {
       setStringParams(value);
+    });
+
+    gui_numParticles.onChange((value) => {
+      setNumParticles(value);
     });
 
     gui_t0.onChange((value) => {
@@ -39,7 +47,7 @@ function App() {
 
   useEffect(() => {
     document.getElementById('cubecubed')!.innerHTML = '';
-    scene(stringParams, [t0, t1], dt);
+    scene(stringParams, numParticles, [t0, t1], dt);
   }, [stringParams, t0, dt]);
 
   return (

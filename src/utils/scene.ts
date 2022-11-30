@@ -15,6 +15,7 @@ import { str2params } from './str2params';
 
 export const scene = (
   stringParams: string,
+  numParticles: number,
   tRange: [number, number],
   dt: number
 ) => {
@@ -31,7 +32,7 @@ export const scene = (
 
     let position = new Vector3(0.01, 0.01, 0.01);
 
-    const particles = [...Array(5000)].map(() => {
+    const particles = [...Array(numParticles)].map(() => {
       const particle = new Particle({
         group,
         position,
