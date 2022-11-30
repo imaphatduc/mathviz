@@ -16,7 +16,8 @@
     "cubecubed": "^1.14.0",
     "dat.gui": "^0.7.9",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-github-corner": "^2.5.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.24",
