@@ -10,7 +10,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-  "homepage": "https://imaphatduc.github.io/mathviz/#",
+  "homepage": "https://imaphatduc.github.io/mathviz/",
   "dependencies": {
     "@p5-wrapper/react": "^4.3.2",
     "@types/dat.gui": "^0.7.7",
