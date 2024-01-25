@@ -1,0 +1,10 @@
+! prepulsarskewed.cells
+! https://conwaylife.com/wiki/Pre-pulsar
+! https://www.conwaylife.com/patterns/prepulsarskewed.cells
+! Skewed pre-pulsar
+! This pattern evolves similarly to a pre-pulsar, but it is unstable.
+......OOO
+......O.O
+OOO...OOO
+O.O......
+OOO......

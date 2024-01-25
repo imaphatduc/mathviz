@@ -1,0 +1,10 @@
+! doubleblockeating.cells
+! https://conwaylife.com/wiki/Double_block_reaction
+! https://conwaylife.com/patterns/doubleblockeating.cells
+.OOOO.....OO....
+O...O......OO.OO
+....O......O..OO
+O..O............
+................
+.............OO.
+.............OO.

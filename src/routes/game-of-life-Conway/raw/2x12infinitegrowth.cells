@@ -1,0 +1,7 @@
+! 2x12 infinite growth
+! DivusIulius
+! The only pattern that fits in a 2x12 box that exhibits infinite 
+! growth.
+! www.conwaylife.com/wiki/index.php?title=Infinite_growth
+O..OO.OOOO.O
+OOOOOO.OO..O

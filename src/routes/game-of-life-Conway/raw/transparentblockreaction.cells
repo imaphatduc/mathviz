@@ -1,0 +1,8 @@
+! Transparent block reaction
+! David Buckingham
+! A reaction in which a B-heptomino passes through a block.
+! www.conwaylife.com/wiki/index.php?title=Transparent_debris_effect
+O.............
+OO..........OO
+.OO.........OO
+OO............

@@ -1,0 +1,14 @@
+! toadflipperandescorter.cells
+! https://conwaylife.com/wiki/Toad
+! https://www.conwaylife.com/patterns/toadflipperandescorter.cells
+! RLE taken from https://www.conwaylife.com/forums/viewtopic.php?p=116324#p116324
+..O...............O..........O...............O.
+.OOO......O......OOO........OOO......O......OOO
+OO.O.....OOO....OO.O.......OO.O.....OOO....OO.O
+OOO.....OO..O...OOO........OOO.....OO..O...OOO.
+OOO.....O..O.O..OOO...OOO..OOO.....O..O.O..OOO.
+.OO..OOO.O.......OO......O..OO..OOO.O.......OO.
+.OO...OO......OO............OO...OO......OO....
+..OO...O......O..O.....OO....OO...O......O..O..
+......O...........O..............O...........O.
+..................O..........................O.

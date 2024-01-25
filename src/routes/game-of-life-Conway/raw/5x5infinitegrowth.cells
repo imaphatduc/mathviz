@@ -1,0 +1,10 @@
+! 5x5 infinite growth
+! Paul Callahan
+! The only pattern that fits in a 5x5 box that exhibits infinite
+! growth.
+! www.conwaylife.com/wiki/index.php?title=Infinite_growth
+OOO.O
+O....
+...OO
+.OO.O
+O.O.O

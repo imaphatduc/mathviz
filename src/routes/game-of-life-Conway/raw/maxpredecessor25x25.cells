@@ -1,0 +1,28 @@
+! maxpredecessor25x25.cells
+! https://conwaylife.com/wiki/Max
+! https://www.conwaylife.com/patterns/maxpredecessor25x25.cells
+O.O.O.OO...O.O..OOO...OO.
+OOO.O...O...O...OO...OOO.
+...OOOO..O.OO...O.O.O.O..
+..OOO.O..OO.O.OOO...O.O.O
+OOOOOOOO..OO.OO..O.OO..O.
+..OO.O.OO.O.O...O.O.O.OOO
+OO..O..OO....O...O......O
+O..O.O...O.OOO.OOOO..O.O.
+O..O......OO..OOOOO...OOO
+..OO.O.O.OOO..O....OOO...
+OO....O.O.......OOOOOO.OO
+...OO.O..OO.OO.OO..O.OO.O
+O...O..OOOO.OOO..O......O
+O.OO....O.......OOO.OO...
+OO.O.O..OO.O.O...O...O.OO
+...OO..O.O...O..O..O.OO..
+OO.OOOO.OO.....OO.O.....O
+.OO..OOO..OO.O.OO...OO..O
+O..O....O.OO.......OOO.OO
+O..OO..OO.OOOO......OOO..
+..O.O.O.O.........O...O..
+......O.O.OO...OOO....OOO
+OOO.OO.O..OO...O...OO.OO.
+.OOO.O.OO..O..O.O.....O.O
+OOO...OOO..OO.....OO..O..

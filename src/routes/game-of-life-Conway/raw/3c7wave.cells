@@ -1,0 +1,13 @@
+! 3c/7 wave
+! Stephen Silver
+! https://conwaylife.com/wiki/3c/7_wave
+! https://conwaylife.com/patterns/3c7wave.cells
+...O.......O.......O.......O...................................
+..OOO.....OOO.....OOO.....OOO..................................
+.O..OO...OO..O...O..OO...OO..O.....O.......O.......O.......O...
+OO..OO...OO..OO.OO..OO...OO..OO...OOO.....OOO.....OOO.....OOO..
+OO..OOO.OOO..OO.OO..OOO.OOO..OO..O..OO...OO..O...O..OO...OO..O.
+OOO.........OOO.OOO.........OOO.OO..OO...OO..OO.OO..OO...OO..OO
+.OO.........OO...OO.........OO..OO..OOO.OOO..OO.OO..OOO.OOO..OO
+................................OOO.........OOO.OOO.........OOO
+.................................OO.........OO...OO.........OO.

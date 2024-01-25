@@ -1,0 +1,15 @@
+! meatball.cells
+! Charity Engine, 2022
+! https://conwaylife.com/wiki/Meatball
+! https://www.conwaylife.com/patterns/meatball.cells
+........O..
+...OO....OO
+.OOO.OO..OO
+O........O.
+.O.OO......
+.O.O...O.O.
+......OO.O.
+.O........O
+OO..OO.OOO.
+OO....OO...
+..O........

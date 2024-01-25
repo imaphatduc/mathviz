@@ -1,0 +1,9 @@
+! Trans-block and long hook eating tub
+! Robert Wainwright
+! A period-3 oscillator, the trans version of the candlefrobra; discovered by Robert Wainwright in 1984.
+! https://conwaylife.com/wiki/Trans-block_and_long_hook_eating_tub
+.....O....
+.O.OO.O...
+O.O...O...
+.O....O.OO
+.....OO.OO

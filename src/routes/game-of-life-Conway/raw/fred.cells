@@ -1,0 +1,26 @@
+! Fred
+! Schneelocke
+! Longest-lived known methuselah to fit within a 20×20 bounding box.
+! Settling time 35426 generations, discovered 15 May 2010.
+! https://www.conwaylife.com/wiki/C/Fred
+! https://www.conwaylife.com/patterns/fred.cells
+.....O........O..OO.
+.O.....OOOOOO..O.O..
+...OOOOOO.OO..O.O...
+O..O..OO.O...O....OO
+O.O.OOO..O.O......O.
+.O.OOOO..OOO.....OO.
+.O..OOO.OO.O.OOO....
+O..O....O...O......O
+.OO..OOO...O...O....
+O.O...OO.O...O..O.O.
+.O......O.O.....OO..
+OOOOOO..OOO..O......
+..O....OOO.....O.O..
+..OO.OO.....O...OOO.
+...O..OOOO.O.O..O.OO
+O....O......OO.O.O..
+O..O..OO.O.O........
+.O.....O..O..O.O.O..
+.OOO.OO.O...........
+O.OOO.O......O...OO.

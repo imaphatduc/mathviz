@@ -1,0 +1,16 @@
+! p5diamond.cells
+! https://conwaylife.com/wiki/P5_diamond
+! https://www.conwaylife.com/patterns/p5diamond.cells
+.......OO....
+..OO.O..O....
+..OO.OO.O.OO.
+........O.OO.
+OOOOOO..O....
+O.......O.OO.
+..O.......O..
+.OO.O.......O
+....O..OOOOOO
+.OO.O........
+.OO.O.OO.OO..
+....O..O.OO..
+....OO.......

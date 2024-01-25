@@ -1,0 +1,11 @@
+! 10-cell infinite growth
+! Paul Callahan
+! A 10-cell infinite growth pattern found in 1997. No pattern with
+! fewer cells can exhibit infinite growth.
+! www.conwaylife.com/wiki/index.php?title=Infinite_growth
+......O.
+....O.OO
+....O.O.
+....O...
+..O.....
+O.O.....

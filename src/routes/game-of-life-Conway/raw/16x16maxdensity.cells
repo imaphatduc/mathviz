@@ -1,0 +1,19 @@
+! 16x16maxdensity.cells
+! https://conwaylife.com/wiki/Density
+! https://www.conwaylife.com/patterns/16x16maxdensity.cells
+OO.OO.O..O.OO.OO....OO.OO.OO.O.OO.OO
+OO.O.OOOOOO.O.OO....OO.OO.O.OOO.O.OO
+...O........O.............O.....O...
+OOO.OOOOOOOO.OOO....OOOO.O.OOOOOO.OO
+O..O........O..O....O..O.O.O......OO
+.O.O.OOOOOO.O.O......O.O.O.O.OOOO...
+OO.O.O....O.O.OO....OO.O.O.O.O...OOO
+.O.O.O.OO.O.O.O.....O..O.O.O..OOO..O
+.O.O.O.OO.O.O.O......O.O.O.OOO..O.O.
+OO.O.O....O.O.OO....OO.O.O....O.O.OO
+.O.O.OOOOOO.O.O......O.O.OOOOOO.O.O.
+O..O........O..O....O..O........O..O
+OOO.OOOOOOOO.OOO....OOO.OOOOOOOO.OOO
+...O........O..........O........O...
+OO.O.OOOOOO.O.OO....OO.O.OO.OOO.O.OO
+OO.OO.O..O.OO.OO....OO.OO.OO.O.OO.OO

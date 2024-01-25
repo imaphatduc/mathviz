@@ -1,0 +1,15 @@
+! BRx46B
+! Michael Simkin, 25 April 2016
+! Repeat time with standard connections is 60 ticks.
+! https://conwaylife.com/wiki/BRx46B
+! https://www.conwaylife.com/patterns/brx46b.cells
+...........OO
+..OO.......OO
+..OO.........
+.............
+.............
+O..........O.
+.O........O.O
+.OO.......O.O
+OO.........O.
+O............

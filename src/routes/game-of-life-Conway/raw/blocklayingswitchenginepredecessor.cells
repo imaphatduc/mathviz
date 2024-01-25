@@ -1,0 +1,7 @@
+! Block-laying switch engine predecessor
+! A simple 12-cell pattern that evolves into the diagonal period 288 c/12 block-laying switch engine puffer.
+! www.conwaylife.com/wiki/index.php?title=Block-laying_switch_engine
+...........O.O..
+OO........O.....
+OO.........O..O.
+.............OOO

@@ -1,0 +1,19 @@
+! Statorless p5
+! Josh Ball
+! Found in June 2016, using Nicolay Beluchenko's version of WLS
+! https://conwaylife.com/wiki/Statorless_p5
+! https://conwaylife.com/patterns/statorlessp5.cells
+O.............O
+.OO.........OO.
+O....OO.OO....O
+OO.O.......O.OO
+.O.O..O.O..O.O.
+..O.O.....O.O..
+..OOO.....OOO..
+..OOO.....OOO..
+..O.O.....O.O..
+.O.O..O.O..O.O.
+OO.O.......O.OO
+O....OO.OO....O
+.OO.........OO.
+O.............O

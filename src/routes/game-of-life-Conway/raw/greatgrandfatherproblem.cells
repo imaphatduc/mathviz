@@ -1,0 +1,32 @@
+! greatgrandfatherproblem.cells
+! https://conwaylife.com/wiki/Grandfather_problem
+! https://www.conwaylife.com/patterns/greatgrandfatherproblem.cells
+OOO.O.OOOO.O.O....O..O..O...O
+OOO.O.OO.OO.OO.....OOO.O.O.O.
+..O......OO.O..OO..OOO....OOO
+....OOO..O.O..O..OOOO..O.OOO.
+.O..OOO...........O.O.OOO.OOO
+OOOOO..OO.OOO.....O...O.OO.O.
+..O.O.O.OOOO..O.O...OOO.OOO..
+...O.O.OOOO.OOO...O.OO.O.OO..
+..O..OO.OO....O.OOOOOOOOO..OO
+..O..OOO..OOOO.OOOOOOOO.OO.O.
+....O.OOO.OOOO..O.OOO.OO..OOO
+.O..OO..OOO.O.O.O.O.OO.OOOO.O
+...OO.OOO....O..O..O.O..O....
+O..O.O..O.O.OOO.O...O...O..OO
+....O.OOOO.O.OOOOOOO.OO..O..O
+.O..O.O.O...OOO.O.O.OOO.OOOOO
+..OOOOOOOO.O.O....O..OOO.OOO.
+O...OOOOO.O..OOOOOOOO....OO.O
+O....O.OO.OOOOO..O.O.OO..OOO.
+O.OO..OO.O..OOOOO..OOO.O.....
+O.....O.OOO.OOO...OOO.O..OO..
+..O..OOOOOOO..OOOOOO.O......O
+OO...OO.OO...O.OOOO.OOO.O.O.O
+.OOO....O.OOOOOO.OOO.O.O...OO
+..OO.O.OOO...O.O..OOO.O.OO.OO
+..O.OO...O.OO..O.OO.O...OO.OO
+OOOOOOO.....OOOOO.O..O..O.OOO
+OOOOOOO.OO.OO....OO...O.OOOOO
+.O.OO.OO.O.OOOO...O....OO.OOO

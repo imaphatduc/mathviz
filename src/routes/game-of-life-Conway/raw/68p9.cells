@@ -1,0 +1,21 @@
+! 68p9.cells
+! carybe, 2018
+! https://conwaylife.com/wiki/68P9
+! https://www.conwaylife.com/patterns/68p9.cells
+.OO..........OO.
+O.O..........O.O
+OOO..........OOO
+................
+.OO..........OO.
+OOOO........OOOO
+O...O......O...O
+.....O....O.....
+..O..O....O..O..
+.....O....O.....
+O...O......O...O
+OOOO........OOOO
+.OO..........OO.
+................
+OOO..........OOO
+O.O..........O.O
+.OO..........OO.

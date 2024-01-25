@@ -1,0 +1,25 @@
+!Name: p28 pre-pulsar shuttle
+!A period-28 oscillator with components found by David Buckingham,
+!Bill Gosper, and thunk
+....OO
+...O..O
+..O.O.O....O
+..O..O....O.O
+.O.........O...OO
+..O.O..........OO
+
+.........O
+........OO
+.........O...OOO
+
+
+
+OO.......O...OOO
+OO......OO
+.........O
+
+...............OO
+...OO......O...OO
+....O.....O.O
+.OOO.......O
+.O

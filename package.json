@@ -1,5 +1,5 @@
 {
-  "name": "chaos-simulator",
+  "name": "mathviz",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,16 +10,21 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-  "homepage": "https://imaphatduc.github.io/chaos-simulator/",
+  "homepage": "https://imaphatduc.github.io/mathviz/",
   "dependencies": {
+    "@p5-wrapper/react": "^4.3.2",
     "@types/dat.gui": "^0.7.7",
     "cubecubed": "^1.14.0",
     "dat.gui": "^0.7.9",
+    "p5": "^1.9.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-github-corner": "^2.5.0"
+    "react-github-corner": "^2.5.0",
+    "react-search-box": "^3.0.0",
+    "wouter": "^2.12.1"
   },
   "devDependencies": {
+    "@types/p5": "^1.7.6",
     "@types/react": "^18.0.24",
     "@types/react-dom": "^18.0.8",
     "@vitejs/plugin-react": "^2.2.0",

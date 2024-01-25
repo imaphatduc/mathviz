@@ -1,0 +1,23 @@
+! pentadecathlonsjostlingtwoblocks.cells
+! Robert Wainwright, 1984
+! https://conwaylife.com/wiki/Pentadecathlons_jostling_two_blocks
+! https://www.conwaylife.com/patterns/pentadecathlonsjostlingtwoblocks.cells
+.OO......OO..
+O..O....O..O.
+O..O....O..O.
+O..O....O..O.
+.OO......OO..
+.............
+.............
+.......O.....
+.....O..O.OO.
+......OO..OO.
+.............
+.............
+......OOOO...
+.....OOOOOO..
+....OOOOOOOO.
+...OO......OO
+....OOOOOOOO.
+.....OOOOOO..
+......OOOO...

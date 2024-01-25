@@ -1,0 +1,21 @@
+! 47575m.cells
+! Adam P. Goucher, February 10, 2019
+! A methuselah with a lifespan of 47575 generations, found using apgsearch.
+! https://conwaylife.com/wiki/47575M
+! https://www.conwaylife.com/patterns/47575m.cells
+.....OO.OO..O.OO
+..O..O....OOO.O.
+O..OO.O.O.OO...O
+.O.OO...OO..OOO.
+OOO........OO..O
+.O.OOO....OOO.OO
+.O.OOOO.O.OOO...
+O.OO.O..O...OOO.
+..OOOO..OOOO..O.
+......OO..O.O.OO
+O...O..O..OOOOO.
+..OOOO...OOOOOOO
+O..OO..O.OO.OOO.
+O..O...OO...O.O.
+OO.OO.O.OOOOOOOO
+OOOOOO...O.O....

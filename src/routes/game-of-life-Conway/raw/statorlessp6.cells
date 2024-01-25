@@ -1,0 +1,10 @@
+! statorlessp6.cells
+! Dean Hickerson, 1989
+! https://conwaylife.com/wiki/Statorless_p6
+! https://www.conwaylife.com/patterns/statorlessp6.cells
+.........OOO.........
+.O.......O.OOO..O.O..
+O....OOOOO.O..O.OOOO.
+.OOOO.O..O.OOOOO....O
+..O.O..OOO.O.......O.
+.........OOO.........

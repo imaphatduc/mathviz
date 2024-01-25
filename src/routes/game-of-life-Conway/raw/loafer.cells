@@ -1,0 +1,14 @@
+! loafer.cells
+! Josh Ball
+! small c/7 orthogonal spaceship found 17 February 2013
+! https://www.conwaylife.com/forums/viewtopic.php?f=2&t=1031#p7450
+! https://conwaylife.com/wiki/Loafer
+.OO..O.OO
+O..O..OO.
+.O.O.....
+..O......
+........O
+......OOO
+.....O...
+......O..
+.......OO

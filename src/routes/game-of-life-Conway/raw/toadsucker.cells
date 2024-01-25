@@ -1,0 +1,14 @@
+! Toad sucker
+! A period 60 oscillator that shifts a toad by applying domino sparks to it.
+! www.conwaylife.com/wiki/index.php?title=Toad
+.O................
+.O..............O.
+O.O.............O.
+.O.............O.O
+.O......O.......O.
+.O......OO......O.
+.O......OO......O.
+O.O......O......O.
+.O.............O.O
+.O..............O.
+................O.

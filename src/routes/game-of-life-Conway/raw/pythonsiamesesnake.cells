@@ -1,0 +1,12 @@
+! Python siamese snake
+!
+! A small 11-bit still life.
+! https://conwaylife.com/wiki/Python_siamese_snake
+.OO
+..O
+.O.
+.OO
+..O
+.O.
+O..
+OO.

@@ -1,0 +1,25 @@
+! grandfatherproblem22x22.cells
+! https://conwaylife.com/wiki/Grandfather_problem
+! https://www.conwaylife.com/patterns/grandfatherproblem22x22.cells
+OOOO...........O.O.OOO
+OO..OO.OOO.....O...O.O
+OO.O.OOOO..O.O...OOO.O
+O.O.OOOO.OOO...O.OO.O.
+O.OO.OO....O.OOOOOOOOO
+O.OOO..OOOO.OOOOOOOO.O
+OO.OOO.OOOO..O.OOO.OO.
+OOO..OOO.O.O.O.O.OO.OO
+OO.OOO....O..O..O.O..O
+O.O..O.O.OOO.O...O...O
+OO.OOOO.O.OOOOOOO.OO..
+.O.O.O...OOO.O.O.OOO.O
+OOOOOOO.O.O....O..OOO.
+.OOOOO.O..OOOOOOOO....
+..O.OO.OOOOO..O.O.OO..
+O..OO.O..OOOOO..OOO.O.
+...O.OOO.OOO...OOO.O..
+..OOOOOOO..OOOOOO.O...
+..OO.OO...O.OOOO.OOO.O
+O....O.OOOOOO.OOO.O.O.
+O.O.OOO...O.O..OOO.O.O
+.OO...O.OO..O.OO.O...O

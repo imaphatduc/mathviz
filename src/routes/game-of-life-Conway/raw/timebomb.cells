@@ -1,0 +1,11 @@
+! Time bomb
+! Doug Petrie
+! An infinite-growth mechanism that is a predecessor of the diagonal period 384 c/12 glider-producing switch engine.
+! www.conwaylife.com/wiki/index.php?title=Glider-producing_switch_eng
+! ine
+.O...........OO
+O.O....O......O
+.......O....O..
+..O..O...O..O..
+..OO......O....
+...O...........

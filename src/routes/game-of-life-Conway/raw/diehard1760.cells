@@ -1,0 +1,35 @@
+! diehard1760.cells
+! https://conwaylife.com/wiki/Die_hard
+! https://www.conwaylife.com/patterns/diehard1760.cells
+.O....O...O..O.OOOOOO.O...OO.O..
+.OO..O.O...OO...O.O..O.OOOOO..OO
+O.O...O.OOOO..O..O.O.OOOO.O..OO.
+....O.O.OO..OOO....O.OO.O.OO....
+OO.O..O.OO.O..OO.....OOO.OO.O...
+OOOOOO.O....O....O.O.O.O..O...O.
+.O..O....OOOO..OO.O.O......OOO.O
+.OOO...O..OOOO....O.O.OOO.O...O.
+.OO.OO.O.O..O.O..OO..OO....OOO..
+O.OOO..OOOO...OO..OOOOOO.O.OOO..
+.OOOOO..OOOO..O..O.O.OO.OO...O.O
+O.....OO.O....O.OO...O..OO.O.OO.
+O.OO.O...OO.OOOOO..O...OOOO.O.O.
+OO....OOOO...OO..OOO....O...O..O
+O.O..O..O.OO.O.OO.OOOOOO...OOO..
+OO....O....OO.OOOO.O..O..O.O...O
+O...O.O..O..O.OOOO.OO....O....OO
+..OOO...OOOOOO.OO.O.OO.O..O..O.O
+O..O...O....OOO..OO...OOOO....OO
+.O.O.OOOO...O..OOOOO.OO...O.OO.O
+.OO.O.OO..O...OO.O....O.OO.....O
+O.O...OO.OO.O.O..O..OOOO..OOOOO.
+..OOO.O.OOOOOO..OO...OOOO..OOO.O
+..OOO....OO..OO..O.O..O.O.OO.OO.
+.O...O.OOO.O.O....OOOO..O...OOO.
+O.OOO......O.O.OO..OOOO....O..O.
+.O...O..O.O.O.O....O....O.OOOOOO
+...O.OO.OOO.....OO..O.OO.O..O.OO
+....OO.O.OO.O....OOO..OO.O.O....
+.OO..O.OOOO.O.O..O..OOOO.O...O.O
+OO..OOOOO.O..O.O...OO...O.O..OO.
+..O.OO...O.OOOOOO.O..O...O....O.

@@ -1,0 +1,24 @@
+! 21x21maxdensity.cells
+! https://conwaylife.com/wiki/Density
+! https://www.conwaylife.com/patterns/21x21maxdensity.cells
+OO.OO.O.OO.OO.O.OO.OO
+OO.O.OOO.O.O.OOO.O.OO
+...O.....O.O.....O...
+OOO.OOOOO.O.OOOOO.OOO
+O..O....O.O......O..O
+.O.O.OO.O.OOOOOO.O.O.
+OO.O.OO.O......O.O.OO
+.O.O....OOOOOO.O.O.O.
+O..OOOOO.....O.O.O..O
+OOO.....OOOO.O.O.OOOO
+...OOOOO...O.O.OO....
+OOO.....OO.O.O....OOO
+O..OOOO.O.O.O.OOOO..O
+.O.O..O.O.O.O.O..O.O.
+OO.O.O..O.O.O..O.O.OO
+.O.O.OOOO.O.OOOO.O.O.
+O..O......O......O..O
+OOO.OOOOOO.OOOOOO.OOO
+...O.....O.O.....O...
+OO.O.OOO.O.O.OOO.O.OO
+OO.OO.O.OO.OO.O.OO.OO

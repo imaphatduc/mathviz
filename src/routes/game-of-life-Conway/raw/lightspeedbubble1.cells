@@ -1,0 +1,40 @@
+! lightspeedbubble1.cells
+! https://conwaylife.com/wiki/Lightspeed_bubble
+! https://www.conwaylife.com/patterns/lightspeedbubble1.cells
+.O..O..O..O..O..O..O..O..O..O..O..O..O..O..O..O..O..O..O..O...
+.OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO.
+.............................................................O
+.OOOOOOOOOOOOO..OOO..OOO..OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO.
+O..............OO...OO...OO........O..........................
+.OOOOOOOOOOOOO...OO...OO...O.OO.O....OOOOOOOOOOOOOOOOOOOOOOOO.
+.............................OO.....O........................O
+.OOOOOOOOOOOOO.................OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO.
+O...............................O.............................
+.OOOOOOOOOOOOO...................OOOOOOOOOOOOOOOOOOOOOOOOOOOO.
+.................................O....O......................O
+.OOOOOOOOOOOOO...................OO....OOOOOOOOOOOOOOOOOOOOOO.
+O................................O.....O....O.................
+.OOOOOOOOOOOOO...................OO....OO....OOOOOOOOOOOOOOOO.
+.................................O.....O.....O....O..........O
+.OOOOOOOOOOOOO...................OO....OO....OO....OOOOOOOOOO.
+O................................O.....O.....O.....O....O.....
+.OOOOOOOOOOOOO...................OO....OO....OO....OO....OOOO.
+.................................O.....O.....O.....O.....O...O
+.OOOOOOOOOOOOO...................OO....OO....OO....OO....OOOO.
+O................................O.....O.....O.....O....O.....
+.OOOOOOOOOOOOO...................OO....OO....OO....OOOOOOOOOO.
+.................................O.....O.....O....O..........O
+.OOOOOOOOOOOOO...................OO....OO....OOOOOOOOOOOOOOOO.
+O................................O.....O....O.................
+.OOOOOOOOOOOOO...................OO....OOOOOOOOOOOOOOOOOOOOOO.
+.................................O....O......................O
+.OOOOOOOOOOOOO...................OOOOOOOOOOOOOOOOOOOOOOOOOOOO.
+O...............................O.............................
+.OOOOOOOOOOOOO.................OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO.
+.............................OO.....O........................O
+.OOOOOOOOOOOOO...OO...OO...O.OO.O....OOOOOOOOOOOOOOOOOOOOOOOO.
+O..............OO...OO...OO........O..........................
+.OOOOOOOOOOOOO..OOO..OOO..OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO.
+.............................................................O
+.OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO.
+.O..O..O..O..O..O..O..O..O..O..O..O..O..O..O..O..O..O..O..O...

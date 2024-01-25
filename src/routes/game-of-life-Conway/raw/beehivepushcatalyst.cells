@@ -1,0 +1,16 @@
+! beehivepushcatalyst.cells
+! Tanner Jacobi, 2020
+! https://conwaylife.com/wiki/Beehive_push_catalyst
+! https://www.conwaylife.com/patterns/beehivepushcatalyst.cells
+......OO.OO......
+.......O.O.......
+..OO.O.....O.OO..
+.O.O.OO...OO.O.O.
+O......O.O......O
+OOOOOOO...OOOOOOO
+.................
+..OOO.......OOO..
+.O..O...O...O..O.
+.OO....O.O....OO.
+.......O.O.......
+........O........

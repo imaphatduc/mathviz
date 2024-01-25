@@ -1,0 +1,20 @@
+! 17x17maxdensity.cells
+! https://conwaylife.com/wiki/Density
+! https://www.conwaylife.com/patterns/17x17maxdensity.cells
+O.OO.OO.O.OO.OO.O
+OO.O.O.OOO.O.O.OO
+...O.O.....O.O...
+OO.O.OOOOOOO.O.OO
+OO.O.........O.OO
+...OOOOOOOOOOO...
+OOO...........OOO
+O..OOOOOOOOOOO..O
+..O...........O..
+O.OOOOOOOOOOOOO.O
+OO.............OO
+...OOOOOOOOOOO...
+OO.O.........O.OO
+OO.O.OOOOOOO.O.OO
+...O.O.....O.O...
+OO.O.O.OOO.O.O.OO
+O.OO.OO.O.OO.OO.O
