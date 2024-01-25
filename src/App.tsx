@@ -3,7 +3,7 @@ import ChaosSimulator from './routes/chaos-simulator';
 import GameOfLife from './routes/game-of-life-Conway';
 
 export default function App() {
-  const base = '/mathviz';
+  const base = '/mathviz/#';
 
   return (
     <div>
