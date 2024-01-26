@@ -1,16 +1,16 @@
-import { Route, Router } from 'wouter';
+import { Route } from 'wouter';
 import ChaosSimulator from './routes/chaos-simulator';
 import GameOfLife from './routes/game-of-life-Conway';
 
 export default function App() {
   return (
-    <Router base="/mathviz">
+    <>
       <Route path="/chaos-simulator">
         <ChaosSimulator />
       </Route>
       <Route path="/game-of-life-Conway">
         <GameOfLife />
       </Route>
-    </Router>
+    </>
   );
 }
