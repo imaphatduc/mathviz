@@ -3,7 +3,7 @@ import GithubCorner from 'react-github-corner';
 
 export default function GithubCorneredLayout({ children }: PropsWithChildren) {
   return (
-    <>
+    <div>
       {children}
       <GithubCorner
         href="https://github.com/imaphatduc/chaos-simulator"
@@ -13,6 +13,6 @@ export default function GithubCorneredLayout({ children }: PropsWithChildren) {
           zIndex: 100,
         }}
       />
-    </>
+    </div>
   );
 }

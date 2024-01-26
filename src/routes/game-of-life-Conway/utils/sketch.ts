@@ -8,10 +8,10 @@ export const sketch = (
   p: P5CanvasInstance<{
     patternEncoded: string;
     offset: number;
+    unit: number;
+    setUnit: (state: number) => void;
   }>
 ) => {
-  const unit = 30;
-
   const GRAY = p.color('#918a6d');
   const BROWN = p.color('#6f4e37');
   const ORANGE = p.color('#ff8546');
@@ -19,6 +19,7 @@ export const sketch = (
   let organism: Organism;
   let xUnits: number;
   let yUnits: number;
+  let unit: number;
 
   p.setup = () => {
     p.createCanvas(0, 0);
@@ -30,9 +31,21 @@ export const sketch = (
       organism = parser(props.patternEncoded, props.offset);
       xUnits = organism.length;
       yUnits = organism[0].length;
+
+      let boundedXUnit = props.unit;
+      if (xUnits * props.unit > p.windowHeight - 5) {
+        boundedXUnit = Math.floor((p.windowHeight - 5) / xUnits);
+      }
+
+      let boundedYUnit = props.unit;
+      if (yUnits * props.unit > p.windowWidth - 5) {
+        boundedYUnit = Math.floor((p.windowWidth - 5) / yUnits);
+      }
+
+      unit = Math.min(boundedXUnit, boundedYUnit);
+      props.setUnit(unit);
       const Width = xUnits * unit;
       const Height = yUnits * unit;
-
       p.resizeCanvas(Height, Width);
     }
   };

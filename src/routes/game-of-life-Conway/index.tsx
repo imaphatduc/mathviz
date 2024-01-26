@@ -2,8 +2,8 @@ import { ReactP5Wrapper } from '@p5-wrapper/react';
 import dat from 'dat.gui';
 import { useEffect, useState } from 'react';
 import GithubCorneredLayout from '../../layouts/GithubCorneredLayout';
-import { Organism } from './utils/Organism';
 import { sketch } from './utils/sketch';
+import { Squash as Hamburger } from 'hamburger-react';
 
 export default function GameOfLife() {
   const [patterns, setPatterns] = useState<string[] | null>(null);
@@ -13,9 +13,9 @@ export default function GameOfLife() {
     string | null
   >(null);
   const [offset, setOffset] = useState(2);
-  const [organism, setOrganism] = useState<Organism>([]);
-  const [xUnits, setXUnits] = useState(0);
-  const [yUnits, setYUnits] = useState(0);
+  const [unit, setUnit] = useState(30);
+
+  const [menuIsOpen, setMenuIsOpen] = useState(false);
 
   useEffect(() => {
     import('./utils/patterns.txt?raw').then((file) => {
@@ -51,19 +51,29 @@ export default function GameOfLife() {
     <GithubCorneredLayout>
       <div
         style={{
-          backgroundColor: 'black',
-          height: '100vh',
-          display: 'grid',
-          gridTemplateColumns: '1fr 3fr',
+          position: 'absolute',
+          bottom: 10,
+          right: 20,
+          zIndex: 50,
+          color: 'white',
         }}
       >
+        <Hamburger toggled={menuIsOpen} toggle={setMenuIsOpen} />
+      </div>
+      {menuIsOpen && (
         <div
           style={{
             color: 'white',
             backgroundColor: '#111',
             overflowX: 'hidden',
             overflowY: 'scroll',
-            paddingTop: '6rem',
+            position: 'fixed',
+            top: 0,
+            right: 0,
+            zIndex: 10,
+            width: 300,
+            height: '100vh',
+            paddingTop: '2rem',
           }}
         >
           {patterns && (
@@ -75,6 +85,7 @@ export default function GameOfLife() {
               <input
                 placeholder="Search pattern"
                 style={{
+                  width: '100%',
                   height: '1.8rem',
                   marginBottom: '1rem',
                   padding: '3px 8px',
@@ -111,21 +122,25 @@ export default function GameOfLife() {
             </div>
           )}
         </div>
-        <div
-          style={{
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'center',
-          }}
-        >
-          {currentPatternEncoded && (
-            <ReactP5Wrapper
-              sketch={sketch}
-              patternEncoded={currentPatternEncoded}
-              offset={offset}
-            />
-          )}
-        </div>
+      )}
+      <div
+        style={{
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
+          backgroundColor: 'black',
+          height: '100vh',
+        }}
+      >
+        {currentPatternEncoded && (
+          <ReactP5Wrapper
+            sketch={sketch}
+            patternEncoded={currentPatternEncoded}
+            offset={offset}
+            unit={unit}
+            setUnit={setUnit}
+          />
+        )}
       </div>
     </GithubCorneredLayout>
   );
