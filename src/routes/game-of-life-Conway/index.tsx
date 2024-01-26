@@ -45,7 +45,7 @@ export default function GameOfLife() {
         }
       );
     }
-  }, [patterns, currentPattern, offset]);
+  }, [patterns, currentPattern, offset, unit]);
 
   return (
     <GithubCorneredLayout>
