@@ -1,6 +1,7 @@
 import { Route } from 'wouter';
 import ChaosSimulator from './routes/chaos-simulator';
 import GameOfLife from './routes/game-of-life-Conway';
+import { Analytics } from '@vercel/analytics/react';
 
 export default function App() {
   return (
@@ -11,6 +12,7 @@ export default function App() {
       <Route path="/game-of-life-Conway">
         <GameOfLife />
       </Route>
+      <Analytics />
     </>
   );
 }
